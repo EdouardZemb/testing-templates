@@ -1,0 +1,24 @@
+extends: spelling
+message: "Mot potentiellement mal orthographié en français : '%s'"
+level: warning
+ignore:
+  - DevOps
+  - Agile
+  - Scrum
+  - Kanban
+  - TODO
+  - FIXME
+  - SaaS
+  - SLI
+  - KPIs
+  - APIs
+  - UX
+  - UI
+  - SLA
+  - SLO
+  - Ops
+  - SecOps
+  - DevSecOps
+  - client_credentials
+dictionary:
+  path: dictionaries/fr
