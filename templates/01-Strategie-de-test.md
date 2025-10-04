@@ -1,27 +1,25 @@
 ---
+title: "01 — Stratégie de Test (Test Strategy)"
+version: "0.1.0"
+statut: "draft"
+projet: "<Nom du projet / périmètre>"
+équipe: "<TRA / équipe de test>"
+responsable: "<Nom, rôle>"
+reviseurs_attendus:
+  - Qualité
+  - Test Lead
+  - Métier / PO (si applicable)
+  - Sécurité / Performance (si applicable)
+source_normes:
+  - ISO/IEC/IEEE 29119-3 — Test documentation (structure des livrables)
+  - ISO/IEC/IEEE 29119-2 — Test processes (cadre processus)
+  - ISTQB® Glossary — Terminologie
+  - ISO/IEC 25010 — Modèle de qualité (NFR)
+  - IEEE 1012 — V&V (notions de traçabilité / intégrité)
+licence: "CC BY 4.0"
+---
 
 # 01 — Stratégie de Test (Test Strategy)
-
-version: 0.1.0
-statut: draft
-projet: <Nom du projet / périmètre>
-équipe: <TRA / équipe de test>
-responsable: <Nom, rôle>
-reviseurs_attendus:
-
-* Qualité
-* Test Lead
-* Métier / PO (si applicable)
-* Sécurité / Performance (si applicable)
-  source_normes:
-* ISO/IEC/IEEE 29119-3 — Test documentation (structure des livrables)
-* ISO/IEC/IEEE 29119-2 — Test processes (cadre processus)
-* ISTQB® Glossary — Terminologie
-* ISO/IEC 25010 — Modèle de qualité (NFR)
-* IEEE 1012 — V&V (notions de traçabilité / intégrité)
-  licence: CC BY 4.0
-
----
 
 > **But du document** — Définir l’**approche globale de test** au niveau produit/projet/périmètre, afin d’aligner objectifs, responsabilités, niveaux & types de test, critères d’entrée/sortie, priorisation par le risque, besoins en données et environnements, couverture non-fonctionnelle et modalités de reporting.
 >

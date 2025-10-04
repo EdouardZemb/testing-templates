@@ -1,25 +1,23 @@
 ---
+title: "03 — Spécification de Conception de Test (Test Design Specification)"
+version: "0.1.0"
+statut: "draft"
+projet: "<Nom du projet / périmètre>"
+équipe: "<TRA / équipe de test>"
+responsable: "<Nom, rôle>"
+reviseurs_attendus:
+  - Qualité
+  - Test Lead
+  - Métier / PO (si applicable)
+source_normes:
+  - ISO/IEC/IEEE 29119-3 — Test documentation (référence principale)
+  - ISO/IEC/IEEE 29119-2 — Test processes (contexte processus)
+  - ISTQB® Glossary — Terminologie de test
+  - ISO/IEC 25010 — Modèle de qualité (exigences non fonctionnelles)
+licence: "CC BY 4.0"
+---
 
 # 03 — Spécification de Conception de Test (Test Design Specification)
-
-version: 0.1.0
-statut: draft
-projet: <Nom du projet / périmètre>
-équipe: <TRA / équipe de test>
-responsable: <Nom, rôle>
-reviseurs_attendus:
-
-* Qualité
-* Test Lead
-* Métier / PO (si applicable)
-  source_normes:
-* ISO/IEC/IEEE 29119-3 — Test documentation (référence principale)
-* ISO/IEC/IEEE 29119-2 — Test processes (contexte processus)
-* ISTQB® Glossary — Terminologie de test
-* ISO/IEC 25010 — Modèle de qualité (exigences non fonctionnelles)
-  licence: CC BY 4.0
-
----
 
 > **But du document** — Définir *comment* nous dérivons les **conditions de test** et l'**approche de conception** à partir des exigences et risques, en vue de produire des **cas** et **procédures** cohérents, traçables et mesurables.
 >

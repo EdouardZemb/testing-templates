@@ -1,27 +1,25 @@
 ---
+title: "07 — Exigences d’Environnement de Test (Test Environment Requirements)"
+version: "0.1.0"
+statut: "draft"
+projet: "<Nom du projet / périmètre>"
+équipe: "<TRA / équipe de test>"
+responsable: "<Nom, rôle>"
+reviseurs_attendus:
+  - Test Lead
+  - OPS / SRE
+  - Sécurité / SecOps
+  - DBA / Data Engineer (si BDD)
+  - Performance / APM (si non-fonctionnel)
+source_normes:
+  - ISO/IEC/IEEE 29119-3 — Test documentation (référentiel de livrables)
+  - ISO/IEC/IEEE 29119-2 — Test processes (contexte processus)
+  - ISTQB® Glossary — Terminologie
+  - ISO/IEC 25010 — Modèle de qualité (NFR)
+licence: "CC BY 4.0"
+---
 
 # 07 — Exigences d’Environnement de Test (Test Environment Requirements)
-
-version: 0.1.0
-statut: draft
-projet: <Nom du projet / périmètre>
-équipe: <TRA / équipe de test>
-responsable: <Nom, rôle>
-reviseurs_attendus:
-
-* Test Lead
-* OPS / SRE
-* Sécurité / SecOps
-* DBA / Data Engineer (si BDD)
-* Performance / APM (si non-fonctionnel)
-  source_normes:
-* ISO/IEC/IEEE 29119-3 — Test documentation (référentiel de livrables)
-* ISO/IEC/IEEE 29119-2 — Test processes (contexte processus)
-* ISTQB® Glossary — Terminologie
-* ISO/IEC 25010 — Modèle de qualité (NFR)
-  licence: CC BY 4.0
-
----
 
 > **But du document** — Définir **ce dont les tests ont besoin** côté environnements (matériel/virtuel, réseau, logiciels, données, observabilité, sécurité, outillage), **comment** préparer et opérer ces environnements (provisioning, configuration, accès, secrets), et **comment** vérifier leur **prêt à tester** (DoR) et leur **conformité** tout au long de la campagne.
 >

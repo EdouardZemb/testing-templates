@@ -1,28 +1,23 @@
 ---
+title: "09 — Rapport de Clôture de Test (Test Completion Report)"
+version: "0.1.0"
+statut: "draft"
+projet: "<Nom du projet / périmètre>"
+équipe: "<TRA / équipe de test>"
+responsable: "<Nom, rôle>"
+reviseurs_attendus:
+  - Qualité
+  - Test Lead
+  - Métier / PO
+  - Sécurité / Performance (si applicable)
+source_normes:
+  - ISO/IEC/IEEE 29119-3 — Test documentation (contenu du rapport de clôture)
+  - ISTQB® Glossary — Terminologie
+  - ISO/IEC 25010 — Modèle de qualité (NFR)
+licence: "CC BY 4.0"
+---
 
 # 09 — Rapport de Clôture de Test (Test Completion Report)
-
-version: 0.1.0
-statut: draft
-projet: <Nom du projet / périmètre>
-équipe: <TRA / équipe de test>
-période_couverte: <AAAA-MM-JJ → AAAA-MM-JJ>
-release/itération: <Release/Sprint/Itération>
-audience: <PO, Direction, Qualité, Équipe>
-responsable: <Nom, rôle>
-reviseurs_attendus:
-
-* Qualité
-* Test Lead
-* Métier / PO
-* Sécurité / Performance (si applicable)
-  source_normes:
-* ISO/IEC/IEEE 29119-3 — Test documentation (contenu du rapport de clôture)
-* ISTQB® Glossary — Terminologie
-* ISO/IEC 25010 — Modèle de qualité (NFR)
-  licence: CC BY 4.0
-
----
 
 > **But du document** — Synthétiser les **résultats finaux** de la campagne : portée réellement testée, couverture, résultats, défauts restants, **atteinte des critères Exit**, **risques résiduels**, **leçons apprises** et **recommandations**. Sert à **statuer** sur l’acceptation de la release et à **capitaliser** pour les cycles suivants.
 >

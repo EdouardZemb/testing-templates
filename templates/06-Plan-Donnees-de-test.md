@@ -1,26 +1,24 @@
 ---
+title: "06 — Plan de Données de Test (Test Data Plan)"
+version: "0.1.0"
+statut: "draft"
+projet: "<Nom du projet / périmètre>"
+équipe: "<TRA / équipe de test>"
+responsable: "<Nom, rôle>"
+reviseurs_attendus:
+  - Qualité
+  - Test Lead
+  - Data Steward / Référent données
+  - Sécurité / DPO (si applicable)
+source_normes:
+  - ISO/IEC/IEEE 29119-3 — Test documentation (référentiel de livrables)
+  - ISO/IEC 25010 — Modèle de qualité (pertinent pour les tests non fonctionnels)
+  - ISTQB® Glossary — Terminologie
+  - Règlement (UE) 2016/679 — RGPD (conformité données personnelles)
+licence: "CC BY 4.0"
+---
 
 # 06 — Plan de Données de Test (Test Data Plan)
-
-version: 0.1.0
-statut: draft
-projet: <Nom du projet / périmètre>
-équipe: <TRA / équipe de test>
-responsable: <Nom, rôle>
-reviseurs_attendus:
-
-* Qualité
-* Test Lead
-* Data Steward / Référent données
-* Sécurité / DPO (si applicable)
-  source_normes:
-* ISO/IEC/IEEE 29119-3 — Test documentation (référentiel de livrables)
-* ISO/IEC 25010 — Modèle de qualité (pertinent pour les tests non fonctionnels)
-* ISTQB® Glossary — Terminologie
-* Règlement (UE) 2016/679 — RGPD (conformité données personnelles)
-  licence: CC BY 4.0
-
----
 
 > **But du document** — Définir **quelles données** sont nécessaires aux tests, **comment** elles sont obtenues (extraction, anonymisation, synthèse), **où** elles résident (environnements), **quand** et **par qui** elles sont mises à disposition, ainsi que les **règles de conformité, sécurité, qualité, rafraîchissement et nettoyage**.
 >

@@ -1,25 +1,23 @@
 ---
+title: "04 — Spécification de Cas de Test (Test Case Specification)"
+version: "0.1.0"
+statut: "draft"
+projet: "<Nom du projet / périmètre>"
+équipe: "<TRA / équipe de test>"
+responsable: "<Nom, rôle>"
+reviseurs_attendus:
+  - Qualité
+  - Test Lead
+  - Métier / PO (si applicable)
+source_normes:
+  - ISO/IEC/IEEE 29119-3 — Test documentation (référence principale)
+  - ISO/IEC/IEEE 29119-2 — Test processes (contexte processus)
+  - ISTQB® Glossary — Terminologie de test
+  - ISO/IEC 25010 — Modèle de qualité (exigences non fonctionnelles)
+licence: "CC BY 4.0"
+---
 
 # 04 — Spécification de Cas de Test (Test Case Specification)
-
-version: 0.1.0
-statut: draft
-projet: <Nom du projet / périmètre>
-équipe: <TRA / équipe de test>
-responsable: <Nom, rôle>
-reviseurs_attendus:
-
-* Qualité
-* Test Lead
-* Métier / PO (si applicable)
-  source_normes:
-* ISO/IEC/IEEE 29119-3 — Test documentation (référence principale)
-* ISO/IEC/IEEE 29119-2 — Test processes (contexte processus)
-* ISTQB® Glossary — Terminologie de test
-* ISO/IEC 25010 — Modèle de qualité (exigences non fonctionnelles)
-  licence: CC BY 4.0
-
----
 
 > **But du document** — Définir les **cas de test** détaillés dérivés des **conditions de test** (cf. `03-Spec-Conception-de-test`), avec leurs **étapes**, **données**, **oracles/attendus**, **pré-/post-conditions**, et métadonnées utiles (priorité, environnement, automatisation, traçabilité).
 >

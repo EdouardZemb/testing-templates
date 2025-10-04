@@ -1,27 +1,22 @@
 ---
+title: "08 — Rapport de Statut de Test (Test Status Report)"
+version: "0.1.0"
+statut: "draft"
+projet: "<Nom du projet / périmètre>"
+équipe: "<TRA / équipe de test>"
+responsable: "<Nom, rôle>"
+reviseurs_attendus:
+  - Qualité
+  - Test Lead
+  - Métier / PO (si applicable)
+source_normes:
+  - ISO/IEC/IEEE 29119-3 — Test documentation (contenu du statut)
+  - ISTQB® Glossary — Terminologie
+  - ISO/IEC 25010 — Modèle de qualité (NFR)
+licence: "CC BY 4.0"
+---
 
 # 08 — Rapport de Statut de Test (Test Status Report)
-
-version: 0.1.0
-statut: draft
-projet: <Nom du projet / périmètre>
-équipe: <TRA / équipe de test>
-période_couverte: <AAAA-MM-JJ → AAAA-MM-JJ>
-release/itération: <Release/Sprint/Itération>
-audience: <PO, Direction, Qualité, Équipe>
-responsable: <Nom, rôle>
-reviseurs_attendus:
-
-* Qualité
-* Test Lead
-* Métier / PO (si applicable)
-  source_normes:
-* ISO/IEC/IEEE 29119-3 — Test documentation (contenu du statut)
-* ISTQB® Glossary — Terminologie
-* ISO/IEC 25010 — Modèle de qualité (NFR)
-  licence: CC BY 4.0
-
----
 
 > **But du document** — Communiquer l’**état d’avancement** des tests sur la période : couverture, résultats, défauts, risques, disponibilité des environnements/données, écarts et décisions. Sert de base aux **arbitrages** et **plans d’action**.
 >

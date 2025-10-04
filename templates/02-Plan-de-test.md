@@ -1,26 +1,24 @@
 ---
+title: "02 — Plan de Test (Test Plan)"
+version: "0.1.0"
+statut: "draft"
+projet: "<Nom du projet / périmètre>"
+équipe: "<TRA / équipe de test>"
+responsable: "<Nom, rôle>"
+reviseurs_attendus:
+  - Qualité
+  - Test Lead
+  - Métier / PO (si applicable)
+  - Sécurité / Performance (si applicable)
+source_normes:
+  - ISO/IEC/IEEE 29119-3 — Test documentation (structure de plan)
+  - ISO/IEC/IEEE 29119-2 — Test processes
+  - ISTQB® Glossary — Terminologie
+  - ISO/IEC 25010 — Modèle de qualité (NFR)
+licence: "CC BY 4.0"
+---
 
 # 02 — Plan de Test (Test Plan)
-
-version: 0.1.0
-statut: draft
-projet: <Nom du projet / périmètre>
-équipe: <TRA / équipe de test>
-responsable: <Nom, rôle>
-reviseurs_attendus:
-
-* Qualité
-* Test Lead
-* Métier / PO (si applicable)
-* Sécurité / Performance (si applicable)
-  source_normes:
-* ISO/IEC/IEEE 29119-3 — Test documentation (structure de plan)
-* ISO/IEC/IEEE 29119-2 — Test processes
-* ISTQB® Glossary — Terminologie
-* ISO/IEC 25010 — Modèle de qualité (NFR)
-  licence: CC BY 4.0
-
----
 
 > **But du document** — Décrire **quoi** sera testé, **quand**, **par qui** et **comment**, pour une **release / itération / lot** donné. Précise le périmètre, l’organisation, le calendrier, les ressources, les risques, les critères d’entrée/sortie et les livrables.
 >

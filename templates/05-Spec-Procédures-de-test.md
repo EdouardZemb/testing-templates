@@ -1,25 +1,23 @@
 ---
+title: "05 — Spécification de Procédures de Test (Test Procedure Specification)"
+version: "0.1.0"
+statut: "draft"
+projet: "<Nom du projet / périmètre>"
+équipe: "<TRA / équipe de test>"
+responsable: "<Nom, rôle>"
+reviseurs_attendus:
+  - Qualité
+  - Test Lead
+  - Métier / PO (si applicable)
+source_normes:
+  - ISO/IEC/IEEE 29119-3 — Test documentation (référence principale)
+  - ISO/IEC/IEEE 29119-2 — Test processes (contexte processus)
+  - ISTQB® Glossary — Terminologie de test
+  - ISO/IEC 25010 — Modèle de qualité (exigences non fonctionnelles)
+licence: "CC BY 4.0"
+---
 
 # 05 — Spécification de Procédures de Test (Test Procedure Specification)
-
-version: 0.1.0
-statut: draft
-projet: <Nom du projet / périmètre>
-équipe: <TRA / équipe de test>
-responsable: <Nom, rôle>
-reviseurs_attendus:
-
-* Qualité
-* Test Lead
-* Métier / PO (si applicable)
-  source_normes:
-* ISO/IEC/IEEE 29119-3 — Test documentation (référence principale)
-* ISO/IEC/IEEE 29119-2 — Test processes (contexte processus)
-* ISTQB® Glossary — Terminologie de test
-* ISO/IEC 25010 — Modèle de qualité (exigences non fonctionnelles)
-  licence: CC BY 4.0
-
----
 
 > **But du document** — Décrire les **procédures d'exécution** qui orchestrent un ou plusieurs **cas de test** (TCS) dans un **ordre contrôlé**, avec préparation d'environnement et de données, critères d'arrêt, collecte d'évidences et nettoyage.
 >
