@@ -1,0 +1,20 @@
+name: Docs CI
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DavidAnson/markdownlint-cli2-action@v20
+      - uses: errata-ai/vale-action@v2.1.1
+        with:
+          files: "templates/**/*.md standards/**/*.md README.md"
+      - name: Check PR body has normative reference
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = context.payload.pull_request?.body || "";
+            const ok = /Référence normative.*(ISO|ISTQB|IEEE|IREB|25010|29119)/i.test(body);
+            if (!ok) core.setFailed("La PR doit contenir un bloc 'Référence normative'.");
