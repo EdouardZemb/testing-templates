@@ -41,6 +41,7 @@ licence: "CC BY 4.0"
 ## 2. Références & artefacts liés
 
 * Cartographie NFR : `standards/cartographie-nfr-iso25010.md`
+* Conventions d'identifiants : `standards/conventions-identifiants.md`
 
 * **Stratégie de test** (01) : `<lien>`
 * **Spécification de conception** (03) : `<lien>`

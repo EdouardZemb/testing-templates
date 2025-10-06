@@ -45,6 +45,7 @@ licence: "CC BY 4.0"
 * Normes et référentiels : `ISO 29119-3`, `ISTQB Glossary`, `ISO 25010`, autres : `<…>`
 * Glossaire ISTQB : `standards/glossaire-istqb.md`
 * Cartographie NFR : `standards/cartographie-nfr-iso25010.md`
+* Conventions d'identifiants : `standards/conventions-identifiants.md`
 
 <!-- Saisir ici, si connu, les clauses/sections normatives précises qui motivent un choix de conception. -->
 
