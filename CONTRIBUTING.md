@@ -60,7 +60,7 @@ Ce guide décrit le flux complet pour proposer, cadrer, développer et fusionner
 1. **Docs CI** doit être verte :
    - `markdownlint`.
    - `Vale` (style `Fr`, dictionnaire hunspell).
-   - Script `Référence normative` (seulement si la PR modifie `templates/` ou `standards/`; sinon, indiquer `N/A` dans le template de PR).
+   - Script `Référence normative` (seulement si la PR modifie `templates/` ou `standards/`; citer au moins une entrée de `standards/references.yaml`, sinon indiquer `N/A`).
 2. **Branch protection** :
    - Historique linéaire.
    - Conversations résolues.

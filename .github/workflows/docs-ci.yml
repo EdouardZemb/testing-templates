@@ -36,6 +36,88 @@ jobs:
               core.info('No templates/standards files changed; skipping normative block enforcement.');
               return;
             }
+            const fs = require('fs');
+            const path = require('path');
+            const yamlPath = path.join(process.cwd(), 'standards', 'references.yaml');
+            if (!fs.existsSync(yamlPath)) {
+              core.setFailed('standards/references.yaml introuvable.');
+              return;
+            }
+            const yamlText = fs.readFileSync(yamlPath, 'utf8');
+            const references = [];
+            let current = null;
+            let collectingTokens = false;
+            for (const rawLine of yamlText.split(/\r?\n/)) {
+              const line = rawLine.replace(/\t/g, '    ');
+              const trimmed = line.trim();
+              if (!trimmed || trimmed.startsWith('#')) {
+                continue;
+              }
+              if (trimmed.startsWith('- key:')) {
+                if (current) {
+                  references.push(current);
+                }
+                current = { tokens: [] };
+                collectingTokens = false;
+                current.key = trimmed.replace('- key:', '').trim();
+                continue;
+              }
+              if (!current) {
+                continue;
+              }
+              const keyValue = line.match(/^\s+(\w+):\s*(.*)$/);
+              if (keyValue) {
+                const field = keyValue[1];
+                let value = keyValue[2].trim();
+                value = value.replace(/^"/, '').replace(/"$/, '');
+                if (field === 'tokens') {
+                  collectingTokens = true;
+                  if (!current.tokens) {
+                    current.tokens = [];
+                  }
+                } else {
+                  collectingTokens = false;
+                  current[field] = value;
+                }
+                continue;
+              }
+              if (collectingTokens) {
+                const tokenMatch = line.match(/^\s*-\s*(.*)$/);
+                if (tokenMatch) {
+                  let token = tokenMatch[1].trim();
+                  token = token.replace(/^"/, '').replace(/"$/, '');
+                  current.tokens.push(token);
+                }
+              }
+            }
+            if (current) {
+              references.push(current);
+            }
+            const tokens = references.flatMap((ref) => {
+              const list = [];
+              if (ref.key) list.push(ref.key);
+              if (ref.identifier) list.push(ref.identifier);
+              if (ref.title) list.push(ref.title);
+              if (Array.isArray(ref.tokens)) list.push(...ref.tokens);
+              return list;
+            }).map((token) => token.toLowerCase());
+            if (!tokens.length) {
+              core.setFailed('Aucune référence définie dans standards/references.yaml.');
+              return;
+            }
             const body = pr.body || "";
-            const ok = /Référence normative.*(ISO|ISTQB|IEEE|IREB|25010|29119)/i.test(body);
-            if (!ok) core.setFailed("La PR doit contenir un bloc 'Référence normative'.");
+            const sectionMatch = body.match(/### Référence normative[\s\S]*?(?=### |$)/i);
+            const normativeSection = sectionMatch ? sectionMatch[0].toLowerCase() : '';
+            if (!normativeSection.trim()) {
+              core.setFailed("Le bloc 'Référence normative' est requis pour les modifications templates/standards.");
+              return;
+            }
+            const hasNA = normativeSection.includes('n/a');
+            const mentionsReference = tokens.some((token) => token && normativeSection.includes(token));
+            if (!mentionsReference) {
+              if (hasNA) {
+                core.setFailed("Pour les modifications templates/standards, la section 'Référence normative' doit citer une source présente dans standards/references.yaml (N/A n'est pas accepté).");
+              } else {
+                core.setFailed("La section 'Référence normative' doit citer au moins une référence listée dans standards/references.yaml.");
+              }
+            }
