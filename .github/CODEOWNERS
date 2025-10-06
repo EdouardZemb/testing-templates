@@ -1,0 +1,11 @@
+# CODEOWNERS
+# Maintains review ownership by area
+
+# Templates and standards must be reviewed by the maintainer
+/templates/ @EdouardZemb
+/standards/ @EdouardZemb
+/docs/ @EdouardZemb
+/styles/ @EdouardZemb
+
+# CI and governance files
+/.github/ @EdouardZemb
