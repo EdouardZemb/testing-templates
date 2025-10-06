@@ -70,4 +70,4 @@ Consulter les issues pour priorités à jour.
 
 ## Licence
 
-Publication sous licence Creative Commons BY 4.0 (issue #1). Toute contribution implique l’acceptation de cette licence et le respect des sources normatives citées.
+Publication sous licence [Creative Commons Attribution 4.0 International](LICENSE). Toute contribution implique l’acceptation de cette licence et le respect des sources normatives citées.
