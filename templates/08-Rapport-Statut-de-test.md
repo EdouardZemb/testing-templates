@@ -213,3 +213,5 @@ licence: "CC BY 4.0"
 | ------: | -------------- | ------- | ------------------- |
 | `0.1.0` | `<AAAA-MM-JJ>` | `<Nom>` | Création du modèle. |
 
+
+* Conventions d'identifiants : `standards/conventions-identifiants.md`
