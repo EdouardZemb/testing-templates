@@ -21,6 +21,9 @@ ignore:
   - DevSecOps
   - markdownlint
   - client_credentials
+  - Toilettage
+  - Rebase
+  - hunspell
   - textarea
   - Ajout
   - identifiant
