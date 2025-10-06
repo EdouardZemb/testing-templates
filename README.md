@@ -21,7 +21,7 @@ Ce dépôt fournit des modèles de documentation de test alignés ISO/IEC/IEEE 2
   - `08-Rapport-Statut-de-test.md` – suivi d'avancement.
   - `09-Rapport-Cloture-de-test.md` – bilan et critères de sortie.
 - `styles/` — configuration Vale (dictionnaire français, règles `Fr.Spelling`).
-- `standards/` — références normatives (`references.yaml`) et futurs glossaires (issues #9, #10).
+- `standards/` — références normatives (`references.yaml`) et glossaires (`glossaire-istqb.md`).
 - `docs/` — guides d'adoption et usage (#29).
 - `decisions/` — journal des Decision Records (DR) futur (#7, #30).
 
@@ -51,7 +51,7 @@ Conventions : commits en anglais (`conventional commits`), décisions structuré
 
 - ISO/IEC/IEEE 29119-2 & 29119-3 (processus et livrables test).
 - ISO/IEC 25010 (modèle de qualité / NFR).
-- ISTQB® Glossary 4.0.
+- ISTQB® Glossary 4.0 (cf. `standards/glossaire-istqb.md`).
 - IEEE 1012 (V&V) — en préparation.
 - Fichier `standards/references.yaml` pour centraliser les identifiants utilisés dans les PR et documents.
 

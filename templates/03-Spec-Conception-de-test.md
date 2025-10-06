@@ -43,6 +43,7 @@ licence: "CC BY 4.0"
 * Risques et criticités : `<lien(s) AMDEC / registre des risques>`
 * Stratégie / Plan de test : `<lien>`
 * Normes et référentiels : `ISO 29119-3`, `ISTQB Glossary`, `ISO 25010`, autres : `<…>`
+* Glossaire ISTQB : `standards/glossaire-istqb.md`
 
 <!-- Saisir ici, si connu, les clauses/sections normatives précises qui motivent un choix de conception. -->
 
