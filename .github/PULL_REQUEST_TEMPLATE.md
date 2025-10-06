@@ -1,7 +1,8 @@
 ### Objet de la modification
 ...
 
-### Référence normative (OBLIGATOIRE)
+### Référence normative (OBLIGATOIRE si `templates/` ou `standards/` modifiés)
+> Pour les PR tooling/CI/docs hors templates, indiquer `N/A`.
 - Source (ex. ISO/IEC/IEEE 29119-3:2021, ISO/IEC 25010:2023, IEEE 1012:2024, ISTQB Glossary, IREB) :
 - Section/Clause/Entrée :
 - Lien public / identifiant :
