@@ -21,7 +21,7 @@ Ce dépôt fournit des modèles de documentation de test alignés ISO/IEC/IEEE 2
   - `08-Rapport-Statut-de-test.md` – suivi d'avancement.
   - `09-Rapport-Cloture-de-test.md` – bilan et critères de sortie.
 - `styles/` — configuration Vale (dictionnaire français, règles `Fr.Spelling`).
-- `standards/` — références normatives (`references.yaml`) et glossaires (`glossaire-istqb.md`).
+- `standards/` — références normatives (`references.yaml`), glossaires (`glossaire-istqb.md`) et cartographie NFR (`cartographie-nfr-iso25010.md`).
 - `docs/` — guides d'adoption et usage (#29).
 - `decisions/` — journal des Decision Records (DR) futur (#7, #30).
 

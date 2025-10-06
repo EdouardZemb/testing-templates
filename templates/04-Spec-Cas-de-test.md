@@ -41,6 +41,7 @@ licence: "CC BY 4.0"
 * Exigences / User Stories : `<lien(s) référentiel : JIRA/Squash/…>`
 * Stratégie / Plan de test : `<lien>`
 * Glossaire ISTQB : `standards/glossaire-istqb.md`
+* Cartographie NFR : `standards/cartographie-nfr-iso25010.md`
 * Normes et référentiels : `ISO 29119-3`, `ISTQB Glossary`, `ISO 25010`, autres : `<…>`
 
 ---
