@@ -46,6 +46,7 @@ licence: "CC BY 4.0"
 * **Spécification des procédures** (05) : `<lien>`
 * **Exigences / backlog** : `<lien(s) JIRA/Squash>`
 * **Politiques internes / conformité** : `<sécurité, RGPD, a11y, etc.>`
+* Glossaire ISTQB : `standards/glossaire-istqb.md`
 
 ---
 

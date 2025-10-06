@@ -94,7 +94,7 @@ Ce guide décrit le flux complet pour proposer, cadrer, développer et fusionner
 ## 7. Rappels
 
 - Normes supportées : ISO/IEC/IEEE 29119-2/-3, ISO/IEC 25010, ISTQB Glossary, IEEE 1012.
-- Les documents doivent citer les sources dans leur front matter ou dans la PR.
+- Les documents doivent citer les sources dans leur front matter ou dans la PR (voir `standards/references.yaml` et `standards/glossaire-istqb.md`).
 - Toute décision structurante est documentée via un Decision Record (`decisions/`).
 
 En suivant ce flux, chaque contribution reste traçable, normée et mergeable sans surprise.
