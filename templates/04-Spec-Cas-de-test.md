@@ -54,6 +54,8 @@ licence: "CC BY 4.0"
 * **Environnements** : `ENV-<code>` (cf. référentiel d'envs du projet).
 * **Traçabilité** : chaque cas **doit** référencer ≥1 **condition de test** `TCN-…` et, si possible, les **exigences** `REQ-…`.
 
+> Consulter `standards/conventions-identifiants.md` pour les préfixes (`TCS`, `TCN`, `TPS`, `DT`, etc.).
+
 ---
 
 ## 4. Registre des cas de test (vue synthèse)
