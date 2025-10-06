@@ -21,6 +21,21 @@ jobs:
               core.info('No pull request payload detected; skipping normative reference check.');
               return;
             }
+            const { owner, repo } = context.repo;
+            const files = await github.paginate(
+              github.rest.pulls.listFiles,
+              {
+                owner,
+                repo,
+                pull_number: pr.number,
+                per_page: 100,
+              },
+            );
+            const touchesNormative = files.some((file) => /^(templates|standards)\//.test(file.filename));
+            if (!touchesNormative) {
+              core.info('No templates/standards files changed; skipping normative block enforcement.');
+              return;
+            }
             const body = pr.body || "";
             const ok = /Référence normative.*(ISO|ISTQB|IEEE|IREB|25010|29119)/i.test(body);
             if (!ok) core.setFailed("La PR doit contenir un bloc 'Référence normative'.");
