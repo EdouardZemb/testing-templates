@@ -19,6 +19,10 @@ ignore:
   - Ops
   - SecOps
   - DevSecOps
+  - markdownlint
   - client_credentials
+  - textarea
+  - Ajout
+  - identifiant
 dictionary:
   path: dictionaries/fr
