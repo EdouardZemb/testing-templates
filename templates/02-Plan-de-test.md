@@ -40,6 +40,8 @@ licence: "CC BY 4.0"
 
 ## 2. Références & artefacts liés
 
+* Cartographie NFR : `standards/cartographie-nfr-iso25010.md`
+
 * **Stratégie de test** (01) : `<lien>`
 * **Spécification de conception** (03) : `<lien>`
 * **Spécification des cas** (04) : `<lien>`
