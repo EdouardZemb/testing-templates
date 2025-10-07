@@ -4351,3 +4351,16 @@ utilisez
 inclure
 Inclure
 obligatoirement
+actif
+appliquer
+Appliquer
+colonnes
+connue
+conventionnel
+courant
+hotfix
+majeure
+nouvelles
+ouvertes
+rempli
+venir
