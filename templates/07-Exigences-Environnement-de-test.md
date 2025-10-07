@@ -39,11 +39,11 @@ licence: "CC BY 4.0"
 
 ## 2. Références
 
-* **Stratégie (01)** : `<lien>`
-* **Plan de test (02)** : `<lien>`
-* **Conception (03)** : `<lien>`
-* **Cas (04) / Procédures (05)** : `<lien>`
-* **Plan de données (06)** : `<lien>`
+* **Stratégie (01)** : `templates/01-Strategie-de-test.md`
+* **Plan de test (02)** : `templates/02-Plan-de-test.md`
+* **Conception (03)** : `templates/03-Spec-Conception-de-test.md`
+* **Cas (04) / Procédures (05)** : `templates/04-Spec-Cas-de-test.md`, `templates/05-Spec-Procedures-de-test.md`
+* **Plan de données (06)** : `templates/06-Plan-Donnees-de-test.md`
 * **Politiques internes** : `<sécurité, backups, observabilité, RGPD, a11y>`
 
 ---

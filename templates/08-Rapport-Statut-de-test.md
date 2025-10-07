@@ -51,8 +51,8 @@ licence: "CC BY 4.0"
 
 **Références.**
 
-* Stratégie (01) : `<lien>`
-* Plan de test (02) : `<lien>`
+* Stratégie (01) : `templates/01-Strategie-de-test.md`
+* Plan de test (02) : `templates/02-Plan-de-test.md`
 * Conception (03), Cas (04), Procédures (05) : `<liens>`
 * Plan Données (06) / Exigences Environnement (07) : `<liens>`
 

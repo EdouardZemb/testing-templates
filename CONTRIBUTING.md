@@ -87,6 +87,7 @@ Ce guide décrit le flux complet pour proposer, cadrer, développer et fusionner
 
 - **Issue Forms** : fichiers YAML sous `.github/ISSUE_TEMPLATE/` imposent les champs DoR.
 - **Security** : pour signaler un problème, suivre `SECURITY.md`.
+- **Liens Markdown** : privilégier les liens relatifs vers les ressources internes (`templates/`, `standards/`, `docs/`). Utiliser l’URL officielle pour les normes externes (voir `standards/references.yaml`).
 - **PR Template** : `.github/PULL_REQUEST_TEMPLATE.md` avec bloc `Référence normative`.
 - **CI** : `.github/workflows/docs-ci.yml` (markdownlint + Vale + contrôle PR).
 - **Validation références** : `scripts/validate_references.py` (via Docs CI).   Inclure obligatoirement le champ `status` (ex.: `published`).

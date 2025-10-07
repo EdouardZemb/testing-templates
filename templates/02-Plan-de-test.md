@@ -43,10 +43,10 @@ licence: "CC BY 4.0"
 * Cartographie NFR : `standards/cartographie-nfr-iso25010.md`
 * Conventions d'identifiants : `standards/conventions-identifiants.md`
 
-* **Stratégie de test** (01) : `<lien>`
-* **Spécification de conception** (03) : `<lien>`
-* **Spécification des cas** (04) : `<lien>`
-* **Spécification des procédures** (05) : `<lien>`
+* **Stratégie de test** (01) : `templates/01-Strategie-de-test.md`
+* **Spécification de conception** (03) : `templates/03-Spec-Conception-de-test.md`
+* **Spécification des cas** (04) : `templates/04-Spec-Cas-de-test.md`
+* **Spécification des procédures** (05) : `templates/05-Spec-Procedures-de-test.md`
 * **Exigences / backlog** : `<lien(s) JIRA/Squash>`
 * **Politiques internes / conformité** : `<sécurité, RGPD, a11y, etc.>`
 * Glossaire ISTQB : `standards/glossaire-istqb.md`
