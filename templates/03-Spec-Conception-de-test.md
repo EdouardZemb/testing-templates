@@ -41,7 +41,7 @@ licence: "CC BY 4.0"
 
 * Exigences / User Stories : `<lien(s) référentiel : JIRA/Squash/…>`
 * Risques et criticités : `<lien(s) AMDEC / registre des risques>`
-* Stratégie / Plan de test : `<lien>`
+* Stratégie / Plan de test : `templates/01-Strategie-de-test.md`
 * Normes et référentiels : `ISO 29119-3`, `ISTQB Glossary`, `ISO 25010`, autres : `<…>`
 * Glossaire ISTQB : `standards/glossaire-istqb.md`
 * Cartographie NFR : `standards/cartographie-nfr-iso25010.md`

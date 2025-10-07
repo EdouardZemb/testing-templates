@@ -43,10 +43,10 @@ licence: "CC BY 4.0"
 
 * **Exigences / Backlog** : `<lien(s) JIRA/Squash/outil>`
 * **Politiques / normes internes** : `<sécurité, RGPD, accessibilité, qualité données…>`
-* **Plan de test** (02) : `<lien>`
-* **Conception de test** (03) : `<lien>`
-* **Cas de test** (04) : `<lien>`
-* **Procédures** (05) : `<lien>`
+* **Plan de test** (02) : `templates/02-Plan-de-test.md`
+* **Conception de test** (03) : `templates/03-Spec-Conception-de-test.md`
+* **Cas de test** (04) : `templates/04-Spec-Cas-de-test.md`
+* **Procédures** (05) : `templates/05-Spec-Procedures-de-test.md`
 * **Autres** : `<charte de dev, DoD, architecture>`
 
 ---

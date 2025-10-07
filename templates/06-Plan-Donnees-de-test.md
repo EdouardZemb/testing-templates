@@ -38,9 +38,9 @@ licence: "CC BY 4.0"
 
 ## 2. Références
 
-* **Conception de test** (03) : `<lien>`
-* **Cas de test** (04) : `<lien>`
-* **Procédures** (05) : `<lien>`
+* **Conception de test** (03) : `templates/03-Spec-Conception-de-test.md`
+* **Cas de test** (04) : `templates/04-Spec-Cas-de-test.md`
+* **Procédures** (05) : `templates/05-Spec-Procedures-de-test.md`
 * **Politiques internes** : `<sécurité, RGPD, confidentialité, archivage>`
 * **Contrats / DPA / clauses** : `<si des données personnelles ou sous-traitants sont impliqués>`
 

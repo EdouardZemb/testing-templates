@@ -40,7 +40,7 @@ licence: "CC BY 4.0"
 * Spécification de **conception** (conditions) : `<lien vers 03-Spec-Conception-de-test>`
 * Spécification de **cas de test** : `<lien vers 04-Spec-Cas-de-test>`
 * Exigences / User Stories : `<lien(s) référentiel : JIRA/Squash/…>`
-* Stratégie / Plan de test : `<lien>`
+* Stratégie / Plan de test : `templates/01-Strategie-de-test.md`
 * Normes et référentiels : `ISO 29119-3`, `ISTQB Glossary`, `ISO 25010`, autres : `<…>`
 
 ---
