@@ -80,7 +80,7 @@ Ce guide décrit le flux complet pour proposer, cadrer, développer et fusionner
 3. **Nettoyage** : supprimer la branche distante (`Delete branch`), archiver la branche locale.
 4. **Release** (si applicable) :
    - Ajouter un tag sémantique.
-   - Mettre à jour le changelog / notes de release.
+   - Mettre à jour le changelog / notes de release (cf. `docs/release-lifecycle.md`).
    - Les liens Issue ↔ PR ↔ commit assurent la traçabilité.
 
 ## 6. Automatisations & templates
