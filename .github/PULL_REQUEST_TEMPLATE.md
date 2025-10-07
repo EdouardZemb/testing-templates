@@ -12,3 +12,6 @@
 
 ### Impact sur les modèles
 - [ ] Rupture (MAJOR)  [ ] Ajout compatible (MINOR)  [ ] Correction (PATCH)
+
+### Sécurité
+- [ ] Impact sécurité évalué (cf. `SECURITY.md`)
