@@ -68,6 +68,10 @@ Conventions : commits en anglais (`conventional commits`), décisions structuré
 
 Consulter les issues pour priorités à jour.
 
+## Sécurité
+
+Consultez `SECURITY.md` pour connaître la procédure de divulgation responsable et le contact sécurité.
+
 ## Licence
 
 Publication sous licence [Creative Commons Attribution 4.0 International](LICENSE). Toute contribution implique l’acceptation de cette licence et le respect des sources normatives citées.
