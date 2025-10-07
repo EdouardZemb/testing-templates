@@ -4312,3 +4312,15 @@ structurantes
 suffit
 Veille
 verts
+ajouter
+Ajouter
+cocher
+externe
+Github
+github
+hebdomadaire
+incluant
+optionnelle
+Publier
+publier
+restantes
