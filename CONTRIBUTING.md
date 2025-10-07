@@ -89,7 +89,7 @@ Ce guide décrit le flux complet pour proposer, cadrer, développer et fusionner
 - **Security** : pour signaler un problème, suivre `SECURITY.md`.
 - **PR Template** : `.github/PULL_REQUEST_TEMPLATE.md` avec bloc `Référence normative`.
 - **CI** : `.github/workflows/docs-ci.yml` (markdownlint + Vale + contrôle PR).
-- **Validation références** : `scripts/validate_references.py` (via Docs CI).
+- **Validation références** : `scripts/validate_references.py` (via Docs CI).   Inclure obligatoirement le champ `status` (ex.: `published`).
 - **Vale** : `.vale.ini`, style `styles/Fr/`, dictionnaire `styles/Fr/dictionaries/fr.dic`.
 - **Branch naming** et **Draft PR** : requis pour tous les contributeurs.
 

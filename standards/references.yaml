@@ -3,6 +3,7 @@
 - key: iso29119-2
   title: "ISO/IEC/IEEE 29119-2:2021 — Software and systems engineering — Software testing — Part 2: Test processes"
   identifier: "ISO/IEC/IEEE 29119-2:2021"
+  status: "published"
   link: "https://www.iso.org/standard/45183.html"
   tokens:
     - "ISO/IEC/IEEE 29119-2"
@@ -11,6 +12,7 @@
 - key: iso29119-3
   title: "ISO/IEC/IEEE 29119-3:2021 — Software and systems engineering — Software testing — Part 3: Test documentation"
   identifier: "ISO/IEC/IEEE 29119-3:2021"
+  status: "published"
   link: "https://www.iso.org/standard/79429.html"
   tokens:
     - "ISO/IEC/IEEE 29119-3"
@@ -19,6 +21,7 @@
 - key: iso25010
   title: "ISO/IEC 25010:2011 — Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models"
   identifier: "ISO/IEC 25010:2011"
+  status: "published"
   link: "https://www.iso.org/standard/35733.html"
   tokens:
     - "ISO/IEC 25010"
@@ -27,6 +30,7 @@
 - key: istqb-glossary
   title: "ISTQB® Glossary of Testing Terms v4.0"
   identifier: "ISTQB Glossary 4.0"
+  status: "published"
   link: "https://glossary.istqb.org/"
   tokens:
     - "ISTQB"
@@ -35,6 +39,7 @@
 - key: ieee-1012
   title: "IEEE Std 1012-2016 — IEEE Standard for System, Software, and Hardware Verification and Validation"
   identifier: "IEEE 1012:2016"
+  status: "published"
   link: "https://standards.ieee.org/ieee/1012/6786/"
   tokens:
     - "IEEE 1012"
@@ -43,6 +48,7 @@
 - key: ireb-cpre
   title: "IREB Certified Professional for Requirements Engineering (CPRE) — Syllabi"
   identifier: "IREB CPRE"
+  status: "published"
   link: "https://www.ireb.org/en/service/downloads/"
   tokens:
     - "IREB"
