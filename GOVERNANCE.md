@@ -38,5 +38,6 @@ Cette page décrit les rôles, responsabilités et processus de décision pour l
 - `standards/glossaire-istqb.md` & `standards/cartographie-nfr-iso25010.md` : ressources de référence.
 - `standards/conventions-identifiants.md` : préfixes d’artefacts.
 - `docs/release-lifecycle.md` : cycle release, milestones, checklist.
+- `docs/maintainer-playbook.md` : routine mainteneurs, escalades.
 
 Toute évolution du processus doit être discutée via issue + PR associées. Lorsque des rôles supplémentaires sont nommés ou que les règles de revue évoluent, ce document constitue la référence officielle.
