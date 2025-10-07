@@ -53,7 +53,7 @@ Conventions : commits en anglais (`conventional commits`), décisions structuré
 - ISO/IEC 25010 (modèle de qualité / NFR).
 - ISTQB® Glossary 4.0 (cf. `standards/glossaire-istqb.md`).
 - IEEE 1012 (V&V) — en préparation.
-- Fichier `standards/references.yaml` pour centraliser les identifiants utilisés dans les PR et documents.
+- Fichier `standards/references.yaml` (avec champ `status`) pour centraliser les identifiants utilisés dans les PR et documents.
 
 ## Feuille de route
 

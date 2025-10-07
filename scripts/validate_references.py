@@ -3,7 +3,7 @@ import re
 from pathlib import Path
 
 YAML_PATH = Path('standards/references.yaml')
-REQUIRED_FIELDS = {"key", "title", "identifier", "link", "tokens"}
+REQUIRED_FIELDS = {"key", "title", "identifier", "link", "tokens", "status"}
 ALLOWED_STATUS = {"published", "withdrawn", "superseded", "draft", "deprecated"}
 
 pattern_entry = re.compile(r'^-\s+key:\s*(.*)$')
